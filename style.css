@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #87CEFA, #f0f8ff);
+    margin: 0;
+}
+.line{
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #5fb7ff, #feb47b);
+}
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    backdrop-filter: blur(10px);
+    width: 350px;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+button {
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 9px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+button img{
+    transition: all 0.5s ease-in-out;
+    width: 20px;
+    height: 20px;
+    scale: 1.2;
+    position: relative;
+    top:3px;
+}
+button img:hover{
+    color: #5fb7ff;
+    scale: 1.4;
+}
+.innerDiv img{
+    width: 100px;
+    height: 100px;
+}
+
+.city-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.temperature {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.weather-condition {
+    font-size: 20px;
+}
+
+.mostinnerdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mostinnerdiv div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.mostinnerdiv img{
+    width: 30px;
+    height: 30px;
+}
+
+#humidity, #windspeed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 16px;
+}
+
